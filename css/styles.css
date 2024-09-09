@@ -1,32 +1,23 @@
-:root {
-  --primary-font: "Roboto", sans-serif;
-  --logo-font: "Raleway", sans-serif;
-  --primary-color: #2e2f42;
-  --primary-white-color: #ffffff;
-  --primary-iris-color: #4d5ae5;
-  --secondary-color: #f4f4fd;
-}
-
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--primary-color);
-  background-color: var(--primary-white-color);
+  color: #2e2f42;
+  background-color: #ffffff;
   line-height: 24px;
   letter-spacing: 2%;
 }
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: #2e2f42;
 }
 
 .logo {
-  font-family: var(--logo-font);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
 }
 
 .logo span {
-  color: var(--primary-iris-color);
+  color: #4d5ae5;
 }
 
 ul {
@@ -44,7 +35,7 @@ address {
 }
 
 h1 {
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-size: 56px;
   line-height: 60px;
   font-weight: 700;
@@ -64,23 +55,23 @@ p {
   font-size: 16px;
 }
 .hero-section {
-  background-color: var(--primary-color);
+  background-color: #2e2f42;
 }
 
 .hero-section-button {
-  color: var(--primary-white-color);
-  background-color: var(--primary-iris-color);
+  color: #ffffff;
+  background-color: #4d5ae5;
 }
 
 .team-section {
-  background-color: var(--secondary-color);
+  background-color: #f4f4fd;
 }
 
 footer {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  background-color: #2e2f42;
+  color: #f4f4fd;
 }
 
 footer a {
-  color: var(--primary-white-color);
+  color: #ffffff;
 }
