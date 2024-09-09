@@ -1,0 +1,86 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --primary-color: #2e2f42;
+  --primary-white-color: #ffffff;
+  --primary-iris-color: #4d5ae5;
+  --secondary-color: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-color);
+  background-color: var(--primary-white-color);
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-size: 18px;
+}
+
+.logo span {
+  color: var(--primary-iris-color);
+}
+
+ul {
+  list-style: none;
+}
+
+nav a {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+address {
+  color: #434455;
+  font-size: 16px;
+}
+
+h1 {
+  color: var(--primary-white-color);
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 16px;
+}
+.hero-section {
+  background-color: var(--primary-color);
+}
+
+.hero-section-button {
+  color: var(--primary-white-color);
+  background-color: var(--primary-iris-color);
+}
+
+.team-section {
+  background-color: var(--secondary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+footer a {
+  color: var(--primary-white-color);
+}
