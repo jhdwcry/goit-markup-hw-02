@@ -45,6 +45,7 @@ nav a {
 
 address {
   font-size: 16px;
+  font-style: normal;
 }
 
 .address-link {
@@ -78,6 +79,7 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .section-subtitle {
@@ -95,6 +97,9 @@ address {
   background-color: #2e2f42;
 }
 
+.team-card {
+  background-color: #ffffff;
+}
 .hero-section-button {
   color: #ffffff;
   background-color: #4d5ae5;
@@ -114,15 +119,8 @@ address {
   background-color: #404bbf;
 }
 
-.team-section ul {
-  background-color: #ffffff;
-<<<<<<< HEAD
-=======
-}
-
-.portfolio-section img {
-  width: 360px;
->>>>>>> 69b7125874254e0b1ecca1364cb31fdc0c63264b
+.team-section {
+  background-color: #f4f4fd;
 }
 
 footer {
