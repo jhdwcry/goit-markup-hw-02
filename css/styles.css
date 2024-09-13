@@ -35,23 +35,19 @@ nav a {
   letter-spacing: 0.02em;
 }
 
+.nav-list:hover {
+  color: #404bbf;
+}
+
+.nav-list:focus {
+  color: #404bbf;
+}
+
 .nav-link:hover {
   color: #404bbf;
 }
 
 .nav-link:focus {
-  color: #404bbf;
-}
-
-.studio-link:hover,
-.portfolio-link:hover,
-.contacts-link:hover {
-  color: #404bbf;
-}
-
-.studio-link:focus,
-.portfolio-link:focus,
-.contacts-link:focus {
   color: #404bbf;
 }
 
