@@ -43,6 +43,18 @@ nav a {
   color: #404bbf;
 }
 
+.studio-link:hover,
+.portfolio-link:hover,
+.contacts-link:hover {
+  color: #404bbf;
+}
+
+.studio-link:focus,
+.portfolio-link:focus,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
 address {
   font-size: 16px;
   font-style: normal;
